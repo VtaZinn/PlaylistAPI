@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  background-color: #063f38;
+  font-family: sans-serif;
+}
+
+.inputPlaylist {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  flex-direction: column;
+}
+
+.inputPlaylist h1{
+  color: white;
+}
+
+.input{
+  height: 40px;
+  width: 600px;
+  border: none;
+}
+
+.buttonEnviar{
+  height: 30px;
+  margin-top: 10px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+}
+
+.colorWhite {
+  color: white;
+}
+
+.fatherMusics {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contentMusics{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.tamanho{
+  width: 500px;
+  padding: 15px;
+}
+
+.efeito {
+  border: none;
+  position: relative;
+  cursor: pointer;
+  transition: all 400ms ease;
+}
+
+.efeito1 {
+  background-color: black;
+  color: white;
+}
+
+.efeito1::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 100%;
+  background: rgba(255,255,255,0.3);
+  border-radius: 10px;
+  transition: all 2s ease;
+}
+
+.efeito1:hover::before {
+  width: 100%;
+}
+
+@media (max-width: 760px) {
+  .fatherMusics {
+    margin-top: 100px;
+  }
+
+  .contentMusics{
+    width: 100%;
+  }
+}

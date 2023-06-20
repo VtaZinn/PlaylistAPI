@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  <title>PLAYLIST</title>
+</head>
+<body>
+    <div class="inputPlaylist">
+      <h1> COLOQUE O LINK DA PLAYLIST: </h1>
+      <input type="text" placeholder="Link da playlist" class="input" id="linkPlaylist" /> 
+      <button class="buttonEnviar" onclick="linkPlaylist()"> ENVIAR </button>
+    </div>
+    <div class="fatherMusics">
+      <h1 id="name" class="colorWhite"> Musicas: </h1>
+      <div class="contentMusics">
+        <p class="tamanho"> Nome da música </p>
+        <p class="tamanho"> Artista </p>
+        <p class="tamanho"> Album </p>
+        <p class="tamanho"> Tempo </p>
+      </div>
+      <div id="resultMusics">
+        
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
