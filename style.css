@@ -88,11 +88,25 @@ body {
 }
 
 @media (max-width: 760px) {
-  .fatherMusics {
-    margin-top: 100px;
+  .inputPlaylist{
+    width: 100%;
+    text-align: center;
+  }
+
+  .input{
+    height: 30px;
+    width: 300px;
+  }
+
+  .fatherMusics{
+    font-size: 10px;
   }
 
   .contentMusics{
     width: 100%;
+  }
+
+  .tamanho {
+    width: 25%;
   }
 }
